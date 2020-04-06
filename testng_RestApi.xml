@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ApiRunner">
+	<!-- <parameter name="mobileDeviceName" 	value="" />
+	<parameter name="env" 				value="DMI" />
+	<parameter name="envXEA" 			value="KEA" />
+	<parameter name="release" 			value="201906" />
+	<parameter name="driverPath" 		value="src\\main\\chromedrivers\\chromedriver_74.0.3729.6.exe" />
+	<parameter name="configMES"		 	value="src\\config\\config.properties" />
+	<parameter name="configMESGeneric" 	value="src\\config\\configMESGeneric.properties" /> -->
+
+	<test name="GetRequest">
+		<classes><class name="APITesting.com.org.api.GetRequest" /></classes>
+	</test>
+	
+	<!-- <test name="worklist">
+		<parameter name="launchMsg" value="Worklist" />
+		<parameter name="configData" value="src\\data\\DMI\\TCWorklistData.properties" />
+		<parameter name="configTest" value="src\\config\\TCWorklist.properties" />
+		<classes> <class name="com.sopra.mes.homepage.TCWorkList" /> </classes>
+	</test> -->
+	
+	
+</suite> 
